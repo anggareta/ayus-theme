@@ -1,9 +1,9 @@
 {
-	"name": "Ayus",
+	"name": "ayus theme",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
+		"editor.background": "#262626",
+		"editor.foreground": "#8f8f8f",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
 	},
@@ -26,7 +26,16 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#999999"
+			}
+		},
+		{
+			"name": "variables",
+			"scope": [
+				"variable.other.object.property"
+			],
+			"settings": {
+				"foreground": "#aaccaa"
 			}
 		},
 		{
@@ -52,11 +61,29 @@
 			"name": "Keyword, Storage",
 			"scope": [
 				"keyword",
-				"storage.type",
+				"storage.type"
+			],
+			"settings": {
+				"foreground": "#a26fff"
+			}
+		},
+		{
+			"name": "Keyword, Storage",
+			"scope": [
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"fontStyle": "bold",
+				"foreground": "#ff3399"
+			}
+		},
+		{
+			"name": "Keyword, Storage",
+			"scope": [
+				"keyword.type"
+			],
+			"settings": {
+				"foreground": "#4aa6f1"
 			}
 		},
 		{
@@ -76,7 +103,17 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#fafafa"
+			}
+		},
+		{
+			"name": "Return",
+			"scope": [
+				"keyword.control.flow.return"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#cccccc"
 			}
 		},
 		{
@@ -100,7 +137,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#93ceff"
 			}
 		},
 		{
@@ -135,7 +172,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#ff815b"
 			}
 		},
 		{
@@ -147,10 +184,11 @@
 				"entity.other.inherited-class",
 				"markup.heading",
 				"markup.inserted.git_gutter",
-				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+				"punctuation.definition.string",
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#88ff59"
 			}
 		},
 		{
@@ -166,7 +204,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#fff06b"
 			}
 		},
 		{
